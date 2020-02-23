@@ -1,13 +1,13 @@
-#management:
-#  security:
-#    enabled: false
-#  endpoints:
-#    web:
-#      exposure:
-#        include: "*"
-#
-#server:
-#  port:
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 9092
 #spring:
 #  cloud:
 #    stream:
